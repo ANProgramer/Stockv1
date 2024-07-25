@@ -3,6 +3,12 @@
 ## Description
 This Stock Recommendation Engine is a Python-based application that provides data-driven investment recommendations for both short-term and long-term horizons. By leveraging machine learning techniques and incorporating various financial and non-financial factors, it offers a comprehensive analysis of stock performance and potential.
 
+## Before Using 
+- Make sure to replace ALPHA_VANTAGE_API_KEY, and NEWS_API_KEY with your api keys to ensure the program works---> analysis.py
+- In analysis.py, for more GPI countries you will need to update it manually
+  
+
+
 ## Key Features
 - Short-term recommendations (1 day and 1 month) based on technical analysis and machine learning predictions
 - Long-term recommendations (1 year and 10 years) considering fundamental analysis, historical performance, and additional factors
