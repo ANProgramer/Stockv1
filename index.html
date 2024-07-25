@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Stock Recommendations</h1>
+    </header>
+
+    <main>
+        <div class="recommendations-container">
+            <section id="day-recommendations">
+                <h2>1 Day Recommendations</h2>
+                <ul class="stock-list"></ul>
+            </section>
+            <section id="month-recommendations">
+                <h2>1 Month Recommendations</h2>
+                <ul class="stock-list"></ul>
+            </section>
+            <section id="year-recommendations">
+                <h2>1 Year Recommendations</h2>
+                <ul class="stock-list"></ul>
+            </section>
+            <section id="decade-recommendations">
+                <h2>10 Year Recommendations</h2>
+                <ul class="stock-list"></ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>Disclaimer: This is not financial advice. Please do your own research before making investment decisions.</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
